@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 is_dotenv_loaded = load_dotenv()
-print(f"Is Dotenv loaded? {is_dotenv_loaded}")
+print(f"Is dotenv loaded? {is_dotenv_loaded}")
 
 # example
 GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")

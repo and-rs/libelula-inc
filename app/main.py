@@ -15,10 +15,10 @@ async def read_root(request: Request):
 
 
 @app.get("/about", response_class=HTMLResponse)
-async def abour_section(request: Request):
+async def about_section(request: Request):
     return templates.TemplateResponse("about/index.html", {"request": request})
 
 
 @app.get("/json", response_class=JSONResponse)
-async def json():
+async def json_example():
     return {"Hello": "World"}
