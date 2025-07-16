@@ -1,31 +1,31 @@
 ### AI Categorizer
 
 1. Install uv (please install globally)
+   ```
+   pip install uv
+   ```
 
-```
-pip install uv
-```
+2. install dependencies
+   ```
+   uv pip install pyproject.toml
+   ```
+   or
+   ```
+   uv sync
+   ```
 
-3. install dependencies
+3. Start the app locally
+   ```
+   uv run fastapi dev
+   ```
 
-```
-uv pip install pyproject.toml
-```
+4. Start the TailwindCSS CLI to update css in realtime
+   ```
+   uv run tailwind.py
+   ```
 
-or
+### TODO
 
-```
-uv sync
-```
-
-2. Start the app locally
-
-```
-uv run fastapi dev
-```
-
-3. Start the TailwindCSS CLI to update css in realtime
-
-```
-uv run twcss.py
-```
+- [ ] black and basedpyright commit pipeline
+- [ ] autoreload tailwind stylesheet
+- [ ] jinja fragments
