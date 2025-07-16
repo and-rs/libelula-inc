@@ -12,13 +12,20 @@ pip install uv
 uv pip install pyproject.toml
 ```
 
+or
+
+```
+uv sync
+```
+
 2. Start the app locally
 
 ```
-uv run fastapi dev app/main.py
+uv run fastapi dev
 ```
 
-> [!IMPORTANT]
-> issues running the commands?
+3. Start the TailwindCSS CLI to update css in realtime
 
-- Run them appending python at the start like `python uv sync`
+```
+uv run twcss.py
+```
