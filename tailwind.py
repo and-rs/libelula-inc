@@ -6,9 +6,9 @@ if __name__ == "__main__":
         [
             "tailwindcss",
             "-i",
-            "app/static/input.css",
+            "static/input.css",
             "-o",
-            "app/static/output.css",
+            "static/output.css",
             "--watch",
         ]
     )
