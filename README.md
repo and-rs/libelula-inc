@@ -26,6 +26,8 @@
 
 ### TODO
 
+- [ ] fix hot-reload types (arel)
+- [ ] script for updating static dependencies
 - [ ] black, djlint and basedpyright precommit pipeline
 - [ ] autoreload tailwind stylesheet
 - [ ] integrate rustywind?
