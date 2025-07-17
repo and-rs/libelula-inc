@@ -26,6 +26,7 @@
 
 ### TODO
 
-- [ ] black and basedpyright commit pipeline
+- [ ] black, djlint and basedpyright precommit pipeline
 - [ ] autoreload tailwind stylesheet
-- [ ] jinja fragments
+- [ ] integrate rustywind?
+- [x] jinja fragments (not necessary)
